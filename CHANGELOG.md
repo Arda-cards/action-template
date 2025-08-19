@@ -24,6 +24,9 @@ Categories, defined in [changemap.json](.github/clq/changemap.json):
 
 - Bump actions/checkout from 4 to 5
 - Bump super-linter/super-linter from 7 to 8
+- Updated to improved CI/CD flow
+  - Better recognition of the default branch (it is protected)
+  - Suppress work on draft pull request
 
 ## [1.0.0] - 2025-01-08
 
