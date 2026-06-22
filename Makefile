@@ -6,6 +6,7 @@ DOCKER_ARGS = --rm --platform=linux/amd64 \
 	--env-file ".github/super-linter.env" \
 	-v "$$PWD":/tmp/lint \
 	ghcr.io/super-linter/super-linter:$(SUPER_LINTER_VERSION)
+.PHONY: super-linter clq lint fix
 
 super-linter:
 	docker run $(DOCKER_ARGS)
