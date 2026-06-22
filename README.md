@@ -1,4 +1,4 @@
-# gradle build
+# ... set a title
 
 ... Grab the badge for the CI build here, see
 [Adding a workflow status badge](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge) ...
